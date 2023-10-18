@@ -1,0 +1,82 @@
+/* Estilos para la página principal */
+
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo img {
+    max-width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav button {
+    background-color: #4b538f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #222;
+}
+
+h1, h2 {
+    color: #4b538f;
+}
+
+/* Estilos para la MISIÓN y VISIÓN */
+
+.wp-block-jetpack-layout-grid-column {
+    background-color: #4b538f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.wp-block-jetpack-layout-grid-column h1 {
+    font-size: 24px;
+}
+
+.wp-block-jetpack-layout-grid-column h2 {
+    font-size: 18px;
+}
+
+.wp-block-jetpack-layout-grid-column p {
+    font-size: 16px;
+}
+
+.wp-block-jetpack-layout-grid-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el pie de página */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .logo2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navv pre {
+    margin: 10px;
+}

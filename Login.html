@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('bg1.jpg'); background-size: cover;">
+    <nav>
+        <a href="Paginaprincipal.html"><button><h3>Regresar</h3></button></a>
+    </nav>
+    <div class="container">
+        <div class="logo">
+            <img src="https://cec.uleam.edu.ec/pluginfile.php/1/theme_klass/footerlogo/1678886773/logo_ULEAM_2017_horizontal.png" alt="ULEAM" width="350" height="150">
+        </div>
+        <h2>Seguimiento a graduados ULEAM</h2>
+        <h2>Inicio<hr></h2>
+        <form action="Menu.html" method="post" onsubmit="return validateForm()">
+            <label for="Usuario">Usuario:</label>
+            <input type="text" id="Usuario" name="Usuario" required>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <input type="submit" value="Iniciar sesión">
+        </form>
+        <p>¿Aún no tienes Cuenta? <a class="link" href="Registro.html">Regístrate</a></p>
+    </div>
+    <div class="options">
+        <a href="Registro.html">Registrarse</a>
+    </div>
+    <footer>
+        <div class="logo2">
+            <img src="https://cec.uleam.edu.ec/pluginfile.php/1/theme_klass/footerlogo/1678886773/logo_ULEAM_2017_horizontal.png" alt="ima" width="350" height="150">
+        </div>
+        <nav class="navv">
+            <p>ULEAM @ Copyright 2023, Todos los derechos reservados - Universidad Laica Eloy Alfaro de Manabí</p>
+            <p>Dirección: Av. Circunvalación - Vía a San Mateo</p>
+            <p>Manta - Manabí - Ecuador</p>
+        </nav>
+    </footer>
+</body>
+</html>

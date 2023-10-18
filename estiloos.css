@@ -1,0 +1,96 @@
+/* Estilos para la página de registro Uleam */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo gris claro */
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 10px;
+}
+
+nav button {
+    background-color: #4b538f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff; /* Fondo blanco */
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    color: #4b538f;
+}
+
+.container hr {
+    border: 1px solid #4b538f;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #4b538f; /* Color de etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Fondo gris más claro */
+}
+
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Fondo gris más claro */
+}
+
+form input[type="submit"] {
+    background-color: #4b538f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 5px;
+}

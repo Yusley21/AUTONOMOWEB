@@ -1,0 +1,51 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.uleam.edu.ec/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-26-at-6.34.19-PM-1024x682.jpeg');
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el encabezado */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333; /* Color del texto */
+    margin: 20px 0;
+  }
+  
+  /* Estilo para el botón de regreso */
+  nav {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #007acc; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #005b99; /* Color de fondo del botón al pasar el ratón por encima */
+  }
+  
+  /* Estilo para el contenedor de la lista de graduados */
+  #graduates-list {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para otros elementos */
+  .elemento {
+    /* Agrega estilos para los otros elementos de tu página si es necesario */
+  }
+  
